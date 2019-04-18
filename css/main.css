@@ -31,6 +31,14 @@ html {
   border-bottom: .3rem solid #bea59b;
 }
 
+a:focus {
+  outline: 3px solid #fff;
+}
+
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
 .nav a:hover span,
 .nav a:focus span {
   border-bottom-color: #fff;
@@ -39,6 +47,11 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #522806;
+}
+
+.btn:focus {
+  outline: 3px solid #fff;
 }
 
 .card {
